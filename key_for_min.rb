@@ -4,6 +4,7 @@
 def key_for_min_value(name_hash)
   if name_hash.empty?
     return nil 
+  else 
   minimum = 99999999
   minimum_key = ""
   name_hash.collect do |key, value|
